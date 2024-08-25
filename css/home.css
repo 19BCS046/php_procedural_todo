@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+  }
+  
+  .todo-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    width: 70%;
+    padding: 8px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: large;
+  }
+  
+  button {
+    padding: 8px 12px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: large;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  
+  
+  tr{
+    border-bottom: 1px solid #0056b3;
+  }
+  th{
+    font-size: 15px;
+    color: #cc0000;
+  }
+  th,td{
+    border: none;
+    height: 30px;
+    padding: 2px;
+    font-size:large;
+  }
+  tr:hover{
+    background: violet;
+  }
+  .task{
+    text-align: center;
+  }
+  .delete{
+    text-align: center;
+  }
+  .delete a{
+    color: red;
+    background: lightgrey;
+    padding: 3px 6px;
+    border-radius: 3px;
+    text-decoration: none;
+    margin: auto;
+
+  }
+
+  .t1{
+    width: 100%;
+    gap: 5px;
+    font-size: large;
+  }
+  form p{
+    color:red;
+    margin: 0;
+    font-size: medium;
+    margin-bottom: 2px  ;
+
+  }
+  .add_btn{
+    font-size: large;
+  }
+.web{
+    
+    font-size: large;
+    background-color: #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.active{
+    font-size: large;
+    margin-left: 15px;
+    margin-top: 10px;
+    background-color: #ccc;
+
+}
+.active:hover{
+    color: #cc0000;
+    text-decoration: underline;
+}
+.l1{
+    font-size: large;
+    padding: 10px;
+}
